@@ -1,0 +1,91 @@
+import com.cage.colorharmony.ColorHarmony;
+
+FastNoiseLite n;
+PFont font;
+ColorHarmony colorHarmony;
+
+int lastPressed = 0;
+
+int seed = 420;
+ArrayList<Integer> seedHistory = new ArrayList();
+int seedIndex = 0;
+
+int[] palette;
+ArrayList<Integer> paletteHistory = new ArrayList();
+int paletteIndex = 0;
+
+int[] switchPalette(int index) {
+    if (index < paletteHistory.size()) {
+        palette = paletteHistory.get(index);
+        paletteIndex = index;
+    }
+    int[] newPalette = colorHarmony.Triads();
+    paletteHistory.add(newPalette);
+    palette = newPalette;
+    paletteIndex = index;
+}
+
+void setup () {
+    size(750, 750);
+    seedHistory.add(seed);
+    n = new FastNoiseLite(seed);
+    n.SetNoiseType(FastNoiseLite.NoiseType.OpenSimplex2S);
+    resetRoot();
+    colorHarmony = new ColorHarmony(this);
+    switchPalette(1);
+    noLoop();
+}
+
+void draw() {
+    for (int c = 0; c < palette.size; c++) {
+        fill(palette[c]);
+        square(10 * c, 0, 10);
+    }
+}
+
+void keyPressed() {
+    System.out.println("keypressing " + key);
+    int now = millis();
+    if (now - lastPressed < Constants.KEY_DELAY) {
+        lastPressed = now;
+        return;
+    }
+
+    if (key == ']') {
+        seedIndex++;
+        if (seedIndex == seedHistory.size()) {
+            seedHistory.add(seed + floor(lerp(-2000, 2000, n.GetNoise(seed, seeker.step))));
+        }
+        seed = seedHistory.get(seedIndex);
+        n.SetSeed(seed);
+        System.out.println("new seed: " + seed);
+        resetRoot();
+        redraw();
+    } else if (key == '[') {
+        seedIndex = max(0, seedIndex - 1);
+        seed = seedHistory.get(seedIndex);
+        n.SetSeed(seed);
+        System.out.println("prev seed: " + seed);
+        resetRoot();
+        redraw();
+    } else if (key == '}') {
+        switchPalette(paletteIndex + 1);
+        System.out.println("next palette: ");
+        redraw();
+    } else if (key == '{') {
+        switchPalette(max(0, paletteIndex - 1));
+        System.out.println("prev palette: ");
+        redraw();
+    }
+
+    if (keyCode == RIGHT || key == 'd') {
+        seeker = loadPath(seeker, seeker.step + 1);
+        redraw();
+
+    } else if (keyCode == LEFT || key == 'a') {
+        seeker = loadPath(seeker, max(0, seeker.step - 1));
+        redraw();
+
+    }
+    lastPressed = now;
+}

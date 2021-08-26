@@ -1,0 +1,16 @@
+#! /usr/local/bin/fish
+
+set DIR (cd (dirname (status -f)); and pwd)
+
+set template $argv[1]
+set projectPath ../sketches/$argv[2]
+set projectName (basename $projectPath)
+set TEMPLATE_PLACEHOLDER "__TEMPLATE__"
+
+mkdir -p $projectPath
+cp -Rn ../templates/$template/ $projectPath/
+cd $projectPath
+echo templates/$template "->" (echo $projectPath | sed "s/\.\.\///g")
+mv -vn $TEMPLATE_PLACEHOLDER.pde $projectName.pde
+
+sed -i "" "s/$TEMPLATE_PLACEHOLDER/$projectName/g" "$projectName.pde"

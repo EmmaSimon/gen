@@ -1,0 +1,24 @@
+-classpath
+'/opt/dev/test/ColorScheme/target/classes:/home/joconnor/.m2/repository/org/processing/processing-core/3.0/processing-core-3.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/opt/dev/test/ColorScheme/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2015. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/opt/dev/test/ColorScheme/target/reference/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ColorScheme 2.0.0 API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' '/opt/dev/test/ColorScheme/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ColorScheme 2.0.0 API'

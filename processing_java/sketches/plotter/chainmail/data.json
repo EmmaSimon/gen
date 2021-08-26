@@ -1,0 +1,338 @@
+{
+  "historyIndex": 89,
+  "history": [
+    {"seed": 1},
+    {"seed": 27840},
+    {"seed": 79382},
+    {"seed": 1591},
+    {"seed": 50515},
+    {"seed": 48373},
+    {"seed": 15590},
+    {"seed": 5143},
+    {
+      "seed": 9601,
+      "rowCount": 7
+    },
+    {
+      "seed": 28034,
+      "rowCount": 12
+    },
+    {"seed": 21832},
+    {
+      "seed": 36457,
+      "rowCount": 7
+    },
+    {
+      "seed": 17958,
+      "rowCount": 7
+    },
+    {
+      "seed": 43498,
+      "rowCount": 7
+    },
+    {
+      "seed": 47550,
+      "rowCount": 7
+    },
+    {
+      "seed": 3929,
+      "rowCount": 7
+    },
+    {
+      "seed": 49376,
+      "rowCount": 17
+    },
+    {
+      "seed": 15338,
+      "rowCount": 7
+    },
+    {
+      "seed": 44021,
+      "rowCount": 7
+    },
+    {
+      "seed": 27122,
+      "rowCount": 7
+    },
+    {
+      "seed": 70261,
+      "rowCount": 7
+    },
+    {
+      "seed": 17220,
+      "rowCount": 7
+    },
+    {
+      "seed": 17950,
+      "rowCount": 7
+    },
+    {
+      "seed": 53367,
+      "rowCount": 7
+    },
+    {
+      "seed": 92760,
+      "rowCount": 7
+    },
+    {
+      "seed": 85212,
+      "rowCount": 7
+    },
+    {
+      "seed": 81118,
+      "rowCount": 7
+    },
+    {
+      "seed": 61922,
+      "rowCount": 7
+    },
+    {
+      "seed": 11279,
+      "rowCount": 7
+    },
+    {
+      "seed": 52592,
+      "rowCount": 7
+    },
+    {
+      "seed": 8643,
+      "rowCount": 7
+    },
+    {
+      "seed": 41529,
+      "rowCount": 7
+    },
+    {
+      "seed": 59746,
+      "rowCount": 7
+    },
+    {
+      "seed": 57417,
+      "rowCount": 7
+    },
+    {
+      "seed": 14261,
+      "rowCount": 7
+    },
+    {
+      "seed": 1571,
+      "rowCount": 14
+    },
+    {
+      "seed": 28588,
+      "rowCount": 15
+    },
+    {
+      "seed": 37030,
+      "rowCount": 14
+    },
+    {
+      "seed": 94476,
+      "rowCount": 14
+    },
+    {
+      "seed": 99827,
+      "rowCount": 14
+    },
+    {
+      "seed": 12899,
+      "rowCount": 14
+    },
+    {
+      "seed": 2883,
+      "rowCount": 15
+    },
+    {
+      "seed": 39688,
+      "rowCount": 14
+    },
+    {
+      "seed": 33055,
+      "rowCount": 18
+    },
+    {
+      "seed": 42092,
+      "rowCount": 19
+    },
+    {
+      "seed": 29869,
+      "rowCount": 19
+    },
+    {
+      "seed": 86814,
+      "rowCount": 19
+    },
+    {
+      "seed": 17918,
+      "rowCount": 19
+    },
+    {
+      "seed": 46099,
+      "rowCount": 19
+    },
+    {
+      "seed": 15257,
+      "rowCount": 19
+    },
+    {
+      "seed": 46506,
+      "rowCount": 19
+    },
+    {
+      "seed": 72120,
+      "rowCount": 19
+    },
+    {
+      "seed": 25336,
+      "rowCount": 19
+    },
+    {
+      "seed": 68137,
+      "rowCount": 19
+    },
+    {
+      "seed": 83012,
+      "rowCount": 19
+    },
+    {
+      "seed": 2093,
+      "rowCount": 19
+    },
+    {
+      "seed": 64409,
+      "rowCount": 19
+    },
+    {
+      "seed": 33705,
+      "rowCount": 19
+    },
+    {
+      "seed": 86016,
+      "rowCount": 19
+    },
+    {
+      "seed": 22193,
+      "rowCount": 19
+    },
+    {
+      "seed": 4624,
+      "rowCount": 19
+    },
+    {
+      "seed": 25501,
+      "rowCount": 19
+    },
+    {
+      "seed": 47459,
+      "rowCount": 19
+    },
+    {
+      "seed": 1556,
+      "rowCount": 19
+    },
+    {
+      "seed": 89090,
+      "rowCount": 19
+    },
+    {
+      "seed": 39116,
+      "rowCount": 19
+    },
+    {
+      "seed": 58897,
+      "rowCount": 19
+    },
+    {
+      "seed": 76402,
+      "rowCount": 19
+    },
+    {
+      "seed": 76650,
+      "rowCount": 19
+    },
+    {
+      "seed": 15672,
+      "rowCount": 15
+    },
+    {
+      "seed": 67036,
+      "rowCount": 15
+    },
+    {
+      "seed": 69899,
+      "rowCount": 15
+    },
+    {
+      "seed": 80593,
+      "rowCount": 15
+    },
+    {
+      "seed": 20059,
+      "rowCount": 15
+    },
+    {
+      "seed": 47691,
+      "rowCount": 15
+    },
+    {
+      "seed": 20302,
+      "rowCount": 15
+    },
+    {
+      "seed": 74785,
+      "rowCount": 15
+    },
+    {
+      "seed": 79613,
+      "rowCount": 15
+    },
+    {
+      "seed": 73558,
+      "rowCount": 15
+    },
+    {
+      "seed": 10886,
+      "rowCount": 15
+    },
+    {
+      "seed": 84353,
+      "rowCount": 15
+    },
+    {
+      "seed": 65299,
+      "rowCount": 15
+    },
+    {
+      "seed": 68190,
+      "rowCount": 15
+    },
+    {
+      "seed": 45461,
+      "rowCount": 15
+    },
+    {
+      "seed": 61530,
+      "rowCount": 15
+    },
+    {
+      "seed": 19854,
+      "rowCount": 15
+    },
+    {
+      "seed": 36799,
+      "rowCount": 15
+    },
+    {
+      "seed": 82596,
+      "rowCount": 15
+    },
+    {
+      "seed": 43453,
+      "rowCount": 15
+    },
+    {
+      "seed": 71051,
+      "rowCount": 15
+    }
+  ]
+}

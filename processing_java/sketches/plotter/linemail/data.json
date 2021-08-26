@@ -1,0 +1,282 @@
+{
+  "historyIndex": 47,
+  "history": [
+    {
+      "seed": 1,
+      "multiplier": 602,
+      "rowCount": 10
+    },
+    {
+      "seed": 68823,
+      "multiplier": 602,
+      "rowCount": 10
+    },
+    {
+      "seed": 85557,
+      "multiplier": 3,
+      "rowCount": 10
+    },
+    {
+      "seed": 62391,
+      "multiplier": 3,
+      "rowCount": 10
+    },
+    {
+      "seed": 31201,
+      "multiplier": 118,
+      "rowCount": 20
+    },
+    {
+      "seed": 12261,
+      "multiplier": 118,
+      "rowCount": 20
+    },
+    {
+      "seed": 36304,
+      "multiplier": 118,
+      "rowCount": 20
+    },
+    {
+      "seed": 36221,
+      "multiplier": 118,
+      "rowCount": 20
+    },
+    {
+      "seed": 37992,
+      "multiplier": 150,
+      "rowCount": 20
+    },
+    {
+      "seed": 78414,
+      "multiplier": 150,
+      "rowCount": 20
+    },
+    {
+      "seed": 46339,
+      "multiplier": 150,
+      "rowCount": 20
+    },
+    {
+      "seed": 61874,
+      "rotationMultiplier": 8,
+      "multiplier": 10,
+      "rowCount": 13
+    },
+    {
+      "seed": 61532,
+      "rotationMultiplier": 8,
+      "multiplier": 10,
+      "rowCount": 13
+    },
+    {
+      "seed": 44914,
+      "rotationMultiplier": 8,
+      "multiplier": 10,
+      "rowCount": 13
+    },
+    {
+      "seed": 51823,
+      "rotationMultiplier": 8,
+      "multiplier": 10,
+      "rowCount": 13
+    },
+    {
+      "seed": 78513,
+      "rotationMultiplier": 8,
+      "multiplier": 10,
+      "rowCount": 13
+    },
+    {
+      "seed": 5319,
+      "rotationMultiplier": 95,
+      "multiplier": 8,
+      "rowCount": 18
+    },
+    {
+      "seed": 57803,
+      "rotationMultiplier": 81,
+      "multiplier": 8,
+      "rowCount": 18
+    },
+    {
+      "seed": 97792,
+      "rotationMultiplier": 81,
+      "multiplier": 8,
+      "rowCount": 18
+    },
+    {
+      "seed": 45843,
+      "rotationMultiplier": 109,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 66583,
+      "rotationMultiplier": 109,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 98415,
+      "rotationMultiplier": 109,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 97366,
+      "rotationMultiplier": 109,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 17427,
+      "rotationMultiplier": 109,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 15256,
+      "rotationMultiplier": 109,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 34258,
+      "rotationMultiplier": 166,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 56161,
+      "rotationMultiplier": 166,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 28370,
+      "rotationMultiplier": 385,
+      "multiplier": 5,
+      "rowCount": 21
+    },
+    {
+      "seed": 44211,
+      "rotationMultiplier": 166,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 63002,
+      "rotationMultiplier": 166,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 12173,
+      "rotationMultiplier": 166,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 74369,
+      "rotationMultiplier": 1332,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 42977,
+      "rotationMultiplier": 1332,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 39886,
+      "rotationMultiplier": 1332,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 59663,
+      "rotationMultiplier": 1705,
+      "multiplier": 158,
+      "rowCount": 21
+    },
+    {
+      "seed": 77114,
+      "rotationMultiplier": 1331,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 11787,
+      "rotationMultiplier": 1332,
+      "multiplier": 401,
+      "rowCount": 21
+    },
+    {
+      "seed": 79662,
+      "rotationMultiplier": 333,
+      "multiplier": 1,
+      "rowCount": 21
+    },
+    {
+      "seed": 76889,
+      "rotationMultiplier": 333,
+      "multiplier": 52,
+      "rowCount": 21
+    },
+    {
+      "seed": 41681,
+      "rotationMultiplier": 333,
+      "multiplier": 52,
+      "rowCount": 21
+    },
+    {
+      "seed": 2351,
+      "rotationMultiplier": 333,
+      "multiplier": 87,
+      "rowCount": 21
+    },
+    {
+      "seed": 77334,
+      "rotationMultiplier": 333,
+      "multiplier": 89,
+      "rowCount": 21
+    },
+    {
+      "seed": 9420,
+      "rotationMultiplier": 333,
+      "multiplier": 89,
+      "rowCount": 21
+    },
+    {
+      "seed": 81763,
+      "rotationMultiplier": 333,
+      "multiplier": 89,
+      "rowCount": 21
+    },
+    {
+      "seed": 20242,
+      "rotationMultiplier": 333,
+      "multiplier": 89,
+      "rowCount": 21
+    },
+    {
+      "seed": 7568,
+      "rotationMultiplier": 333,
+      "multiplier": 438,
+      "rowCount": 21
+    },
+    {
+      "seed": 30239,
+      "rotationMultiplier": 333,
+      "multiplier": 438,
+      "rowCount": 21
+    },
+    {
+      "seed": 17294,
+      "rotationMultiplier": 333,
+      "multiplier": 438,
+      "rowCount": 21
+    }
+  ]
+}

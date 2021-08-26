@@ -1,0 +1,141 @@
+FastNoiseLite n;
+PFont font;
+
+int seed = 420;
+int lastPressed = 0;
+Node root;
+Node seeker;
+ArrayList<Integer> seedHistory = new ArrayList();
+int seedIndex = 0;
+
+enum Dir {
+    UP, DOWN, CENTER;
+    Dir get(int d) {
+        if (d == 1) {
+            return DOWN;
+        } else if (d == 2) {
+            return CENTER;
+        } else {
+            return UP;
+        }
+    }
+}
+
+class Node {
+    float value;
+    String letter;
+
+    int depth;
+    int step;
+    int numDimensions = 3;
+
+    Node[] dimensions;
+
+    Node(float value, int step, int depth) {
+        this(value);
+        this.depth = depth;
+        this.step = step;
+    }
+    Node(float value) {
+        this.value = value;
+        this.numDimensions = 3;
+        dimensions = new Node[this.numDimensions];
+        letter = String.valueOf((char)((floor(lerp(97, 123, abs(value))))));
+        step = 0;
+        depth = 0;
+        System.out.println(step + " | l: " + letter + " | depth: " + depth);
+    }
+}
+
+Node resetRoot() {
+    root = new Node(n.GetNoise(0, 0));
+    loadPath(seeker, seeker.step);
+    seeker = root;
+    return root;
+}
+
+Node nodeAt(int step) {
+    if (seeker.step == step) { //<>// //<>//
+        return seeker;
+    }
+    return loadPath(seeker, step);
+}
+
+Node loadStep(Node from, boolean next) {
+    int nextStep = from.step + (next ? 1 : -1);
+    int direction = abs(floor(from.numDimensions*from.value));
+    if (from.dimensions[direction] != null) {
+        return from.dimensions[direction];
+    }
+    float value = n.GetNoise(nextStep, from.depth);
+    Node nextNode = new Node(value, nextStep, from.depth + 1);
+    from.dimensions[direction] = nextNode;
+    return nextNode;
+}
+
+Node loadPath(Node node, int step) {
+    Node loading = node; //<>//
+    if (node.step == step) { //<>//
+        return node;
+    }
+    return loadStep(node, node.step < step);
+}
+
+void setup () {
+    size(750, 750);
+    seedHistory.add(seed);
+    font = createFont("Louis George Cafe.ttf", 100);
+    n = new FastNoiseLite(seed);
+    n.SetNoiseType(FastNoiseLite.NoiseType.OpenSimplex2S);
+    resetRoot();
+}
+
+void letter(Node node) {
+    if (node.letter == null) {
+        return;
+    }
+    // text(node.letter, node.depth * 10, node.step * 10);
+    text(node.letter, node.depth * 10, node.step*10);
+}
+
+void draw() {
+    translate(width / 2, height / 2);
+    background(250);
+    for (int i = -4; i <= 4; i++) {
+        if (seeker.step == i) {
+            fill(0, 102, 153);
+        } else {
+            fill(0);
+        }
+        letter(nodeAt(seeker.step + i));
+    } //<>//
+}
+
+void keyPressed() {
+    int now = millis();
+    if (now - lastPressed < Constants.KEY_DELAY) {
+        lastPressed = now;
+        return;
+    }
+
+    if (key == ']') {
+        int nextSeed = seed + floor(lerp(-2000, 2000, n.GetNoise(seed, seeker.step)));
+        seedHistory.add(nextSeed);
+        seedIndex++;
+        n.SetSeed(nextSeed);
+        resetRoot();
+    } else if (key == '[') {
+        seedIndex--; //<>//
+        n.SetSeed(seedHistory.get(seedIndex)); //<>//
+        resetRoot();
+    } //<>//
+ //<>//
+    if (keyCode == RIGHT || key == 'd') {
+        seeker = nodeAt(seeker.step + 1);
+
+    } else if (keyCode == LEFT || key == 'a') {
+        seeker = nodeAt(seeker.step - 1);
+
+    }
+    lastPressed = now;
+}

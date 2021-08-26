@@ -1,0 +1,11 @@
+.DS_Store
+
+# Copyrighted font
+Kabel.otf
+Kabel Light.otf
+
+# Copyrighted or oversized sketch files
+processing_java/sketches/genuary+/sketch_210109a/*.mp4
+processing_java/sketches/genuary+/sketch_210111a/*.wav
+processing_java/sketches/genuary+/sketch_210111a/*.mp3
+processing_java/sketches/genuary+/sketch_210111a/*.mp4

@@ -1,0 +1,286 @@
+{
+  "historyIndex": 56,
+  "history": [
+    {
+      "clones": 3,
+      "seed": 6015,
+      "rotations": 2
+    },
+    {
+      "clones": 3,
+      "seed": 54121,
+      "rotations": 3
+    },
+    {"rotations": 4},
+    {
+      "clones": 3,
+      "seed": 46564,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 77915,
+      "rotations": 6
+    },
+    {
+      "clones": 3,
+      "seed": 87570,
+      "rotations": 8
+    },
+    {
+      "clones": 3,
+      "seed": 7931,
+      "rotations": 6
+    },
+    {
+      "clones": 3,
+      "seed": 2233,
+      "rotations": 6
+    },
+    {
+      "clones": 1,
+      "seed": 30488,
+      "rotations": 2
+    },
+    {
+      "clones": 1,
+      "seed": 58459,
+      "rotations": 4
+    },
+    {
+      "clones": 1,
+      "seed": 28528,
+      "rotations": 4
+    },
+    {
+      "clones": 2,
+      "seed": 9189,
+      "rotations": 16
+    },
+    {
+      "clones": 5,
+      "seed": 86492,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 95438,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 3635,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 11008,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 83185,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 80626,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 57476,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 58921,
+      "rotations": 13
+    },
+    {
+      "clones": 6,
+      "seed": 26393,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 37699,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 16484,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 32174,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 15192,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 47913,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 46655,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 42219,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 20299,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 17193,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 43380,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 38155,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 72337,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 60706,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 91750,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 26774,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 23309,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 52875,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 85024,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 93714,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 97595,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 91310,
+      "rotations": 4
+    },
+    {
+      "clones": 2,
+      "seed": 38864,
+      "rotations": 24
+    },
+    {
+      "clones": 2,
+      "seed": 78619,
+      "rotations": 24
+    },
+    {
+      "clones": 4,
+      "seed": 75619,
+      "rotations": 24
+    },
+    {
+      "clones": 4,
+      "seed": 35067,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 80218,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 41750,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 93644,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 36546,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 60953,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 42396,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 92986,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 83914,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 67438,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 11222,
+      "rotations": 10
+    },
+    {
+      "clones": 3,
+      "seed": 31533,
+      "rotations": 10
+    }
+  ]
+}

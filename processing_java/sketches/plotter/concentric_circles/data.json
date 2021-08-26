@@ -1,0 +1,1880 @@
+{
+  "historyIndex": 319,
+  "history": [
+    {
+      "clones": 3,
+      "seed": 6015,
+      "rotations": 2
+    },
+    {
+      "clones": 3,
+      "seed": 54121,
+      "rotations": 3
+    },
+    {"rotations": 4},
+    {
+      "clones": 3,
+      "seed": 46564,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 77915,
+      "rotations": 6
+    },
+    {
+      "clones": 3,
+      "seed": 87570,
+      "rotations": 8
+    },
+    {
+      "clones": 3,
+      "seed": 7931,
+      "rotations": 6
+    },
+    {
+      "clones": 3,
+      "seed": 2233,
+      "rotations": 6
+    },
+    {
+      "clones": 1,
+      "seed": 30488,
+      "rotations": 2
+    },
+    {
+      "clones": 1,
+      "seed": 58459,
+      "rotations": 4
+    },
+    {
+      "clones": 1,
+      "seed": 28528,
+      "rotations": 4
+    },
+    {
+      "clones": 2,
+      "seed": 9189,
+      "rotations": 16
+    },
+    {
+      "clones": 5,
+      "seed": 86492,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 95438,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 3635,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 11008,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 83185,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 80626,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 57476,
+      "rotations": 13
+    },
+    {
+      "clones": 5,
+      "seed": 58921,
+      "rotations": 13
+    },
+    {
+      "clones": 6,
+      "seed": 26393,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 37699,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 16484,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 32174,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 15192,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 47913,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 46655,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 42219,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 20299,
+      "rotations": 4
+    },
+    {
+      "clones": 5,
+      "seed": 17193,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 43380,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 38155,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 72337,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 60706,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 91750,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 26774,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 23309,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 52875,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 85024,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 93714,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 97595,
+      "rotations": 4
+    },
+    {
+      "clones": 7,
+      "seed": 91310,
+      "rotations": 4
+    },
+    {
+      "clones": 2,
+      "seed": 38864,
+      "rotations": 24
+    },
+    {
+      "clones": 2,
+      "seed": 78619,
+      "rotations": 24
+    },
+    {
+      "clones": 4,
+      "seed": 75619,
+      "rotations": 24
+    },
+    {
+      "clones": 4,
+      "seed": 35067,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 80218,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 41750,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 93644,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 36546,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 60953,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 42396,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 92986,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 83914,
+      "rotations": 7
+    },
+    {
+      "clones": 6,
+      "seed": 67438,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 11222,
+      "rotations": 10
+    },
+    {
+      "clones": 3,
+      "seed": 31533,
+      "rotations": 10
+    },
+    {
+      "clones": 3,
+      "seed": 56544,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 41619,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 59154,
+      "rotations": 37
+    },
+    {
+      "clones": 3,
+      "seed": 10518,
+      "rotations": 37
+    },
+    {
+      "clones": 3,
+      "seed": 50769,
+      "rotations": 37
+    },
+    {
+      "clones": 3,
+      "seed": 22794,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 77268,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 11154,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 84681,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 51240,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 75201,
+      "rotations": 40
+    },
+    {
+      "clones": 3,
+      "seed": 37030,
+      "rotations": 36
+    },
+    {
+      "clones": 3,
+      "seed": 92791,
+      "rotations": 26
+    },
+    {
+      "clones": 3,
+      "seed": 21081,
+      "rotations": 27
+    },
+    {
+      "clones": 3,
+      "seed": 60431,
+      "rotations": 21
+    },
+    {
+      "clones": 3,
+      "seed": 82481,
+      "rotations": 21
+    },
+    {
+      "clones": 3,
+      "seed": 15851,
+      "rotations": 21
+    },
+    {
+      "clones": 3,
+      "seed": 82202,
+      "rotations": 21
+    },
+    {
+      "clones": 3,
+      "seed": 35356,
+      "rotations": 21
+    },
+    {
+      "clones": 3,
+      "seed": 54092,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 77763,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 89446,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 88254,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 34865,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 35448,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 30536,
+      "rotations": 23
+    },
+    {
+      "clones": 3,
+      "seed": 14386,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 1635,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 80381,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 15564,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 40137,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 32746,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 11194,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 89592,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 78105,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 74388,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 78690,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 12826,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 23725,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 8885,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 67015,
+      "rotations": 33
+    },
+    {
+      "clones": 3,
+      "seed": 97537,
+      "rotations": 35
+    },
+    {
+      "clones": 3,
+      "seed": 66400,
+      "rotations": 35
+    },
+    {
+      "clones": 3,
+      "seed": 39842,
+      "rotations": 7
+    },
+    {
+      "clones": 3,
+      "seed": 51429,
+      "rotations": 7
+    },
+    {
+      "clones": 3,
+      "seed": 81517,
+      "rotations": 7
+    },
+    {
+      "clones": 3,
+      "seed": 79420,
+      "rotations": 5
+    },
+    {
+      "clones": 3,
+      "seed": 29237,
+      "rotations": 4
+    },
+    {
+      "clones": 3,
+      "seed": 60316,
+      "rotations": 21
+    },
+    {
+      "clones": 3,
+      "seed": 9106,
+      "rotations": 5
+    },
+    {
+      "clones": 3,
+      "seed": 21479,
+      "rotations": 20
+    },
+    {
+      "clones": 3,
+      "seed": 88633,
+      "rotations": 18
+    },
+    {
+      "clones": 3,
+      "seed": 16523,
+      "rotations": 18
+    },
+    {
+      "clones": 3,
+      "seed": 33515,
+      "rotations": 18
+    },
+    {
+      "clones": 3,
+      "seed": 18502,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 86955,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 91324,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 56929,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 79788,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 63949,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 63616,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 13997,
+      "rotations": 22
+    },
+    {
+      "clones": 3,
+      "seed": 60371,
+      "rotations": 22
+    },
+    {
+      "clones": 2,
+      "seed": 33783,
+      "rotations": 4
+    },
+    {
+      "clones": 2,
+      "seed": 82490,
+      "rotations": 4
+    },
+    {
+      "clones": 1,
+      "seed": 46746,
+      "rotations": 12
+    },
+    {
+      "clones": 1,
+      "seed": 34522,
+      "rotations": 44
+    },
+    {
+      "clones": 4,
+      "seed": 97497,
+      "rotations": 4
+    },
+    {
+      "clones": 6,
+      "seed": 98139,
+      "multiplier": 47,
+      "rotations": 111
+    },
+    {
+      "clones": 8,
+      "seed": 59938,
+      "multiplier": 17,
+      "rotations": 14
+    },
+    {
+      "clones": 8,
+      "seed": 99458,
+      "multiplier": 36,
+      "rotations": 37
+    },
+    {
+      "clones": 7,
+      "seed": 25482,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 7,
+      "seed": 37292,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 7,
+      "seed": 19103,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 7,
+      "seed": 70310,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 9,
+      "seed": 13002,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 9,
+      "seed": 48848,
+      "multiplier": 36,
+      "rotations": 7
+    },
+    {
+      "clones": 9,
+      "seed": 38480,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 9,
+      "seed": 60424,
+      "multiplier": 36,
+      "rotations": 6
+    },
+    {
+      "clones": 5,
+      "seed": 20878,
+      "multiplier": 36,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 45258,
+      "multiplier": 36,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 19799,
+      "multiplier": 36,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 69840,
+      "multiplier": 36,
+      "rotations": 7
+    },
+    {
+      "clones": 5,
+      "seed": 12223,
+      "multiplier": 36,
+      "rotations": 7
+    },
+    {
+      "clones": 10,
+      "seed": 68113,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 10,
+      "seed": 40174,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 72906,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 45886,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 2972,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 9154,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 65471,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 6045,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 4900,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 8,
+      "seed": 19762,
+      "multiplier": 36,
+      "rotations": 10
+    },
+    {
+      "clones": 15,
+      "seed": 91251,
+      "multiplier": 38,
+      "rotations": 11
+    },
+    {
+      "clones": 15,
+      "seed": 53802,
+      "multiplier": 38,
+      "rotations": 11
+    },
+    {
+      "clones": 15,
+      "seed": 97015,
+      "multiplier": 38,
+      "rotations": 11
+    },
+    {
+      "clones": 15,
+      "seed": 31213,
+      "multiplier": 38,
+      "rotations": 11
+    },
+    {
+      "clones": 15,
+      "seed": 1269,
+      "multiplier": 38,
+      "rotations": 11
+    },
+    {
+      "clones": 34,
+      "seed": 56825,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 92848,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 81846,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 18173,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 8252,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 63919,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 45880,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 54376,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 71502,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 10259,
+      "multiplier": 38,
+      "rotations": 4
+    },
+    {
+      "clones": 34,
+      "seed": 4665,
+      "multiplier": 38,
+      "rotations": 19
+    },
+    {
+      "clones": 34,
+      "seed": 93750,
+      "multiplier": 38,
+      "rotations": 19
+    },
+    {
+      "clones": 34,
+      "seed": 18463,
+      "multiplier": 38,
+      "rotations": 19
+    },
+    {
+      "clones": 34,
+      "seed": 88694,
+      "multiplier": 38,
+      "rotations": 19
+    },
+    {
+      "clones": 34,
+      "seed": 10376,
+      "multiplier": 38,
+      "rotations": 19
+    },
+    {
+      "clones": 34,
+      "seed": 83743,
+      "multiplier": 38,
+      "rotations": 19
+    },
+    {
+      "clones": 44,
+      "seed": 5093,
+      "multiplier": 109,
+      "rotations": 3
+    },
+    {
+      "clones": 10,
+      "seed": 76665,
+      "multiplier": 85,
+      "rotations": 10
+    },
+    {
+      "clones": 10,
+      "seed": 16001,
+      "multiplier": 85,
+      "rotations": 10
+    },
+    {
+      "clones": 10,
+      "seed": 54386,
+      "multiplier": 85,
+      "rotations": 10
+    },
+    {
+      "clones": 10,
+      "seed": 81952,
+      "multiplier": 85,
+      "rotations": 12
+    },
+    {
+      "clones": 10,
+      "seed": 82062,
+      "multiplier": 85,
+      "rotations": 12
+    },
+    {
+      "clones": 10,
+      "seed": 61494,
+      "multiplier": 85,
+      "rotations": 12
+    },
+    {
+      "clones": 10,
+      "seed": 50941,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 91830,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 41109,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 93793,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 86578,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 65257,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 89718,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 26692,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 95799,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 9842,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 22886,
+      "multiplier": 85,
+      "rotations": 15
+    },
+    {
+      "clones": 10,
+      "seed": 39809,
+      "multiplier": 85,
+      "rotations": 11
+    },
+    {
+      "clones": 10,
+      "seed": 82812,
+      "multiplier": 85,
+      "rotations": 11
+    },
+    {
+      "clones": 10,
+      "seed": 59266,
+      "multiplier": 85,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 23759,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 45030,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 10334,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 78065,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 70179,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 98481,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 47568,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 74976,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 90610,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 83962,
+      "multiplier": 7,
+      "rotations": 11
+    },
+    {
+      "clones": 13,
+      "seed": 6362,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 98608,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 71304,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 99050,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 43531,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 72148,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 156,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 64316,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 44923,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 58579,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 63183,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 6063,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 22,
+      "seed": 80943,
+      "multiplier": 7,
+      "rotations": 6
+    },
+    {
+      "clones": 15,
+      "seed": 81614,
+      "multiplier": 7,
+      "rotations": 8
+    },
+    {
+      "clones": 13,
+      "seed": 49842,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 13,
+      "seed": 39010,
+      "multiplier": 7,
+      "rotations": 7
+    },
+    {
+      "clones": 19,
+      "seed": 53343,
+      "multiplier": 11,
+      "rotations": 3
+    },
+    {
+      "clones": 19,
+      "seed": 17433,
+      "multiplier": 11,
+      "rotations": 3
+    },
+    {
+      "clones": 5,
+      "seed": 9645,
+      "multiplier": 39,
+      "rotations": 5
+    },
+    {
+      "clones": 14,
+      "seed": 36221,
+      "multiplier": 11,
+      "rotations": 4
+    },
+    {
+      "clones": 17,
+      "seed": 87243,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 41651,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 87207,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 33962,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 26947,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 36685,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 11980,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 98250,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 79392,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 33124,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 43547,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 31105,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 17,
+      "seed": 17371,
+      "multiplier": 14,
+      "rotations": 12
+    },
+    {
+      "clones": 4,
+      "seed": 88991,
+      "multiplier": 11,
+      "layers": 28,
+      "rotations": 7
+    },
+    {
+      "clones": 20,
+      "seed": 22300,
+      "multiplier": 12,
+      "layers": 12,
+      "rotations": 4
+    },
+    {
+      "clones": 19,
+      "seed": 53315,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 4
+    },
+    {
+      "clones": 19,
+      "seed": 26200,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 50555,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 84638,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 68354,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 40637,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 72327,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 1407,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 94974,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 92243,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 94243,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 2440,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 93430,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 7953,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 45275,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 34894,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 46156,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 46677,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 13353,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 30627,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 36644,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 89874,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 87075,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 56742,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 67665,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 48573,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 90894,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 57524,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 98463,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 43330,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 76397,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 80734,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 83272,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 11443,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 3530,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 63515,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 99309,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 66427,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 54432,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 64151,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 67366,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 6213,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 76632,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 35223,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 31890,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 99776,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 54423,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 19,
+      "seed": 99934,
+      "multiplier": 18,
+      "layers": 4,
+      "rotations": 16
+    },
+    {
+      "clones": 35,
+      "seed": 54122,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 35,
+      "seed": 34320,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 35,
+      "seed": 53742,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 35,
+      "seed": 12660,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 35,
+      "seed": 50827,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 35,
+      "seed": 68245,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 35,
+      "seed": 99019,
+      "multiplier": 4,
+      "layers": 7,
+      "rotations": 5
+    },
+    {
+      "clones": 63,
+      "seed": 22403,
+      "multiplier": 2,
+      "layers": 4,
+      "rotations": 6
+    },
+    {
+      "clones": 35,
+      "seed": 49318,
+      "multiplier": 4,
+      "layers": 2,
+      "rotations": 8
+    },
+    {
+      "clones": 35,
+      "seed": 62041,
+      "multiplier": 4,
+      "layers": 2,
+      "rotations": 8
+    },
+    {
+      "clones": 35,
+      "seed": 89349,
+      "multiplier": 4,
+      "layers": 3,
+      "rotations": 9
+    },
+    {
+      "clones": 35,
+      "seed": 94934,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 9
+    },
+    {
+      "clones": 35,
+      "seed": 61157,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 9
+    },
+    {
+      "clones": 35,
+      "seed": 2860,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 86189,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 80016,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 33817,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 30898,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 11740,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 25,
+      "seed": 72475,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 24388,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 85187,
+      "multiplier": 4,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 67202,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 89318,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 76199,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 38989,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 70429,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 69659,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 39973,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 23983,
+      "multiplier": 6,
+      "layers": 4,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 41409,
+      "multiplier": 6,
+      "layers": 6,
+      "rotations": 7
+    },
+    {
+      "clones": 35,
+      "seed": 61795,
+      "multiplier": 6,
+      "layers": 5,
+      "rotations": 7
+    },
+    {
+      "clones": 31,
+      "seed": 11283,
+      "multiplier": 11,
+      "layers": 13,
+      "rotations": 13
+    },
+    {
+      "clones": 31,
+      "seed": 52937,
+      "multiplier": 65,
+      "layers": 12,
+      "rotations": 13
+    }
+  ]
+}

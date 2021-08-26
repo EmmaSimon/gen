@@ -1,0 +1,49 @@
+ffmpeg version 4.3.1-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2020 the FFmpeg developers
+  built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Input #0, rawvideo, from 'pipe:':
+  Duration: N/A, start: 0.000000, bitrate: 259200 kb/s
+    Stream #0:0: Video: rawvideo (RGB[24] / 0x18424752), rgb24, 600x600, 259200 kb/s, 30 tbr, 30 tbn, 30 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+[swscaler @ 0x108934000] Warning: data is not aligned! This can lead to a speed loss
+[libx264 @ 0x7fda46801200] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x7fda46801200] profile High, level 3.1, 4:2:0, 8-bit
+[libx264 @ 0x7fda46801200] 264 - core 161 r3015 4c2aafd - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=15.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/Users/emma/Documents/Processing/libraries/VideoExport/examples/withAudio/processing-movie.mp4':
+  Metadata:
+    comment         : Made with Video Export for Processing - https://git.io/vAXLk
+    encoder         : Lavf58.45.100
+    Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 600x600, q=-1--1, 30 fps, 15360 tbn, 30 tbc
+    Metadata:
+      encoder         : Lavc58.91.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   33 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   64 fps= 62 q=21.0 size=       0kB time=00:00:00.36 bitrate=   1.0kbits/s speed=0.355x    frame=   93 fps= 60 q=21.0 size=       0kB time=00:00:01.33 bitrate=   0.3kbits/s speed=0.865x    frame=  124 fps= 60 q=21.0 size=       0kB time=00:00:02.36 bitrate=   0.2kbits/s speed=1.15x    frame=  155 fps= 60 q=21.0 size=       0kB time=00:00:03.40 bitrate=   0.1kbits/s speed=1.32x    frame=  186 fps= 60 q=21.0 size=       0kB time=00:00:04.43 bitrate=   0.1kbits/s speed=1.44x    frame=  186 fps= 58 q=-1.0 Lsize=      30kB time=00:00:06.10 bitrate=  40.9kbits/s speed= 1.9x    
+video:29kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 6.314964%
+[libx264 @ 0x7fda46801200] frame I:4     Avg QP:11.52  size:   176
+[libx264 @ 0x7fda46801200] frame P:171   Avg QP:25.19  size:   160
+[libx264 @ 0x7fda46801200] frame B:11    Avg QP: 7.82  size:    60
+[libx264 @ 0x7fda46801200] consecutive B-frames: 89.2%  8.6%  0.0%  2.2%
+[libx264 @ 0x7fda46801200] mb I  I16..4: 52.6% 47.3%  0.1%
+[libx264 @ 0x7fda46801200] mb P  I16..4:  5.2% 12.2%  0.1%  P16..4:  0.7%  0.0%  0.0%  0.0%  0.0%    skip:81.7%
+[libx264 @ 0x7fda46801200] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  5.3%  0.0%  0.0%  direct: 0.0%  skip:94.7%  L0:23.9% L1:76.1% BI: 0.0%
+[libx264 @ 0x7fda46801200] 8x8 transform intra:66.9% inter:18.2%
+[libx264 @ 0x7fda46801200] coded y,uvDC,uvAC intra: 0.2% 0.0% 0.0% inter: 0.0% 0.0% 0.0%
+[libx264 @ 0x7fda46801200] i16 v,h,dc,p: 98%  1%  1%  0%
+[libx264 @ 0x7fda46801200] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  8%  4% 89%  0%  0%  0%  0%  0%  0%
+[libx264 @ 0x7fda46801200] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 52% 21% 26%  0%  0%  0%  0%  0%  2%
+[libx264 @ 0x7fda46801200] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0x7fda46801200] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x7fda46801200] ref P L0: 27.1%  0.0% 63.9%  9.0%
+[libx264 @ 0x7fda46801200] ref B L0: 99.5%  0.5%
+[libx264 @ 0x7fda46801200] kb/s:36.97
+Exiting normally, received signal 15.
