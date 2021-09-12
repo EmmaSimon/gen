@@ -1,13 +1,13 @@
-import com.fasterxml.jackson.annotation.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.awt.event.KeyEvent;
+import processing.svg.*;
 import java.io.File;
 import java.util.*;
-import processing.svg.*;
+import java.awt.event.KeyEvent;
+import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 final String PROJECT_NAME = "cutecard";
 final String STATE_FILE = "data.json";
-final boolean GENERATE_SVG = false;
+final boolean GENERATE_SVG = true;
 int showState = 1;
 
 State state;
@@ -26,11 +26,10 @@ void setup() {
   smooth(8);
   noFill();
   background(255);
-  strokeWeight(1);
-  baseSVG = loadShape("cutecard__BACK_copy.svg");
-  noLoop();
+  strokeWeight(2);
+  baseSVG = loadShape("cutecard__BACK.svg");
+  // noLoop();
   textFont(createFont("OCRA.ttf", 10));
-
   StateInitializer init = new StateInitializer() {
     HashMap<String, Object> getStateTemplate() {
       return new HashMap<String, Object>(){{
@@ -52,19 +51,18 @@ float negged(float n) {
 void draw() {
   background(255);
   drawState();
+  shape(baseSVG, 0, 0, width, height);
   if (mousePressed) {
     clip(mouseX - 50, mouseY - 50, 100, 100);
   } else {
-    clip(4, 4, width - 8, height - 8);
-  }
-  if (!GENERATE_SVG) {
-    shape(baseSVG, 0, 0, width, height);
+    // clip(0, 0, width, height);
+    noClip();
   }
   translate(width / 2, height / 2);
 
 
-  drawRings();
-  // drawTwists();
+  // drawRings();
+  drawTwists();
 
   if (GENERATE_SVG) {
     endRecord();
@@ -73,63 +71,11 @@ void draw() {
 }
 
 void drawTwists() {
-  int snipTo = 1;
-  int firstIndent = 7;
   for (int c = 0; c < state.getInt("counter"); c++) {
     float r = c * state.getInt("multiplier") / max(state.getInt("scale"), 0.001);
     int x = state.getInt("midpointX");
     int y = state.getInt("midpointY");
-    int lineLen = width - 1;
-    float segLen = lineLen / state.getInt("segments");
-    beginShape();
-
-    for (int s = (c < snipTo ? firstIndent : 0); s < state.getInt("segments"); s++) {
-
-      float n_0 = noise(c * .5, s) * 1;
-      float n_1 = noise(c * .5, s + 1) * 1;
-      float start_p_x = x + s * segLen;
-      float start_p_y = y + r;
-      if (s == 0 || c < snipTo) {
-        vertex(start_p_x, start_p_y);
-      }
-      float end_p_x = x + (s + 1) * segLen;
-      float end_p_y = y + r;
-      println("\n=== c = " + c + ", s = " + s);
-      println("(start_p_x, start_p_y) : (", start_p_x + ", " + start_p_y + ")");
-      println("(end_p_x, end_p_y) : (", end_p_x + ", " + end_p_y + ")");
-      println("--: ");
-      boolean even = s % 2 == 0;
-      float xScale = .8;
-      float yScale = .8;
-      float control_1_x = end_p_x + (((even ? 0 : .5) + n_0) * segLen * xScale);
-      float control_1_y = end_p_y + ((even ? 1 : -1) * segLen * yScale * ((true ? .5 : 0) + n_1));
-      float control_2_x = start_p_x - (segLen * xScale * ((even ? .5 : 0) + n_1));
-      float control_2_y = start_p_y + ((even ? 1 : -1) * segLen * yScale * ((false ? 0 : .5) + n_0));
-      println("(control_1_x, control_1_y): (", control_1_x + ", " + control_1_y + ")");
-      println("(control_2_x, control_2_y): (", control_2_x + ", " + control_2_y + ")");
-      // float cx1 = x + (s * segLen) + (segLen/3);
-      // float cy1 = y + r - n;
-      // float cx2 = x + (s * segLen) + ((2*segLen)/3);
-      // float cy2 = cy1;
-      // bezier(x + (s * segLen), y + r, cx1, cy1, cx2, cy2, x + ((s + 1) * segLen), y + r);
-      // circle(x + (s * segLen), y + r, 10);
-      // circle(control_1_x, control_1_y, 5);
-      // circle(control_2_x, control_2_y, 5);
-      // line(start_p_x, start_p_y, control_1_x, control_1_y);
-      // line(end_p_x, end_p_y, control_2_x, control_2_y);
-
-      bezierVertex(
-        control_1_x,
-        control_1_y,
-        control_2_x,
-        control_2_y,
-        end_p_x,
-        end_p_y
-      );
-      // circle(x + ((s + 1) * segLen), y + r, 10);
-    }
-    endShape();
-    // line(x, y + r, x + width - 1, y + r);
+    line(x, y + r, x + width, y + r);
   }
 }
 
@@ -177,14 +123,6 @@ void keyPressed() {
   }
   if (key == '[') {
     state.set("scale", max(0, state.getInt("scale") - 1));
-    reset();
-  }
-  if (key == '}') {
-    state.set("segments", state.getInt("segments") + 1);
-    reset();
-  }
-  if (key == '{') {
-    state.set("segments", max(0, state.getInt("segments") - 1));
     reset();
   }
   if (key == 'w') {
@@ -248,8 +186,15 @@ void keyReleased() {
   } else if (keyCode == RIGHT) {
   } else if (keyCode == UP) {
   } else if (keyCode == DOWN) {
+  } else if (key == '.') {
+    state.writeStatus();
+  } else if (key == ',') {
+    state.writeStatus();
+  } else if (key == '>') {
+    state.writeStatus();
+  } else if (key == '<') {
+    state.writeStatus();
   }
-  state.writeStatus();
 }
 
 void drawState() {

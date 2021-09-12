@@ -153,6 +153,9 @@ public class State {
     Object value = history.getCurrent().get(stateKey);
     if (value == null) {
       value = this.init.getNewState().get(stateKey);
+      if (value == null) {
+        value = 0;
+      }
       this.history.getCurrent().put(stateKey, value);
     }
     return value;
