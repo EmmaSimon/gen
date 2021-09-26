@@ -1,13 +1,42 @@
-.DS_Store
-
+# dependencies
+node_modules/
+js/node_modules/
+js/genui/mode_modules/
+/.pnp
+.pnp.js
 processing_java/modes
 
-# Copyrighted font
-Kabel.otf
-Kabel Light.otf
+# testing
+/coverage
+
+# logging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+node_modules/
+js/node_modules/
+js/genui/mode_modules/
+/.pnp
+.pnp.js
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Copyrighted or oversized sketch files
 processing_java/sketches/genuary+/sketch_210109a/*.mp4
 processing_java/sketches/genuary+/sketch_210111a/*.wav
 processing_java/sketches/genuary+/sketch_210111a/*.mp3
 processing_java/sketches/genuary+/sketch_210111a/*.mp4
+
+# Copyrighted font
+Kabel.otf
+Kabel Light.otf
