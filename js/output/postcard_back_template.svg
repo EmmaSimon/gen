@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   class="Sketch"
+   id="sketch"
+   width="576"
+   height="384"
+   viewBox="0 0 576 384"
+   fill="none"
+   stroke="black"
+   version="1.1"
+   sodipodi:docname="postcard_back_template.svg">
+  <metadata
+     id="metadata29">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs27" />
+  <sodipodi:namedview
+     inkscape:current-layer="sketch"
+     inkscape:window-maximized="0"
+     inkscape:window-y="28"
+     inkscape:window-x="0"
+     inkscape:cy="186.72768"
+     inkscape:cx="162.63876"
+     inkscape:zoom="1.5173611"
+     showgrid="false"
+     id="namedview25"
+     inkscape:window-height="872"
+     inkscape:window-width="1440"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <g
+     style="stroke:#000000;stroke-opacity:1;fill:none"
+     id="border">
+    <path
+       style="stroke:#000000;stroke-opacity:1;fill:none"
+       id="path10"
+       d="M 0 0 L 576 0 L 576 384 L 0 384 L 0 0" />
+  </g>
+  <g
+     style="stroke:#000000;stroke-opacity:1;fill:none"
+     id="postcard_back_template">
+    <g
+       style="stroke:#000000;stroke-opacity:1;fill:none"
+       id="postcard-divider">
+      <line
+         style="stroke:#000000;stroke-opacity:1;fill:none"
+         id="line13"
+         stroke="black"
+         y2="374"
+         x2="288"
+         y1="10"
+         x1="288" />
+    </g>
+    <g
+       style="stroke:#000000;stroke-opacity:1;fill:none"
+       id="stamp">
+      <rect
+         style="stroke:#000000;stroke-opacity:1;fill:none"
+         id="rect16"
+         width="96"
+         height="96"
+         y="10"
+         x="470" />
+      <rect
+         style="stroke:#000000;stroke-opacity:1;fill:none"
+         id="rect18"
+         width="96"
+         height="96"
+         y="20"
+         x="460" />
+      <rect
+         style="stroke:#000000;stroke-opacity:1;fill:none"
+         id="rect20"
+         width="96"
+         height="96"
+         y="30"
+         x="450" />
+    </g>
+  </g>
+</svg>

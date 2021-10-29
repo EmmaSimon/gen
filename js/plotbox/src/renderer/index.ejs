@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>plotbox</title>
+    
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    window.electron.ipcRenderer.once('ipc-example', (arg) => {
+      // eslint-disable-next-line no-console
+      console.log(arg);
+    });
+
+    window.electron.ipcRenderer.myPing();
+  </script>
+  <!-- <script type='text/javascript' src='p5svg.ts' /> -->
+</html>

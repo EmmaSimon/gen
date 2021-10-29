@@ -1,28 +1,32 @@
-# dependencies
-node_modules/
-js/node_modules/
-js/genui/mode_modules/
-/.pnp
-.pnp.js
-processing_java/modes
-
 # testing
-/coverage
+coverage
+.eslintcache
 
 # logging
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+logs
+*.log
+
+# runtime
+pids
+*.pid
+*.seed
 
 # dependencies
 node_modules/
 js/node_modules/
 js/genui/mode_modules/
+js/plotbox/mode_modules/
+processing_java/modes
 /.pnp
 .pnp.js
 
 # production
 /build
+release/app/dist
+release/build
 
 # misc
 .DS_Store
@@ -30,6 +34,13 @@ js/genui/mode_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+.erb
+.github
+.vscode
+.idea
+*.css.d.ts
+*.sass.d.ts
+*.scss.d.ts
 
 # Copyrighted or oversized sketch files
 processing_java/sketches/genuary+/sketch_210109a/*.mp4

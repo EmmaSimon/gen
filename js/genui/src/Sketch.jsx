@@ -20,7 +20,7 @@ function saveSvg(svg, name) {
 
 function Sketch(props) {
     const sketchRef = useRef(null);
-    const {name, height, sketch, width} = props;
+    const {children, name, height, width} = props;
 
     return (<>
         <svg 
@@ -34,7 +34,15 @@ function Sketch(props) {
             fill="none"
             stroke="black"
         >
-            <g id={name}>{sketch}</g>
+            <g id="border">
+                <path d={
+                    'M 0 0 '
+                    + `L ${width} 0 `
+                    + `L ${width} ${height} `
+                    + `L 0 ${height} `
+                    + 'L 0 0'} />
+            </g>
+            <g id={name}>{children}</g>
         </svg>
         <div>
         <button onClick={() => saveSvg(sketchRef.current, name)}>
